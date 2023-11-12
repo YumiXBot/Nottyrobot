@@ -61,7 +61,7 @@ async def gen_start_kb(q: Message or CallbackQuery):
             [
                 (
                     "🗃️ Source Code",
-                    "https://github.com/Gojo-Bots/Gojo_Satoru",
+                    "https://github.com/TeamAloneOp/AloneXRobot",
                     "url",
                 ),
                 (
@@ -73,7 +73,7 @@ async def gen_start_kb(q: Message or CallbackQuery):
             [
                 (
                     "Essential",
-                    "https://t.me/+PcVYvdzNt4E1YjM1",
+                    "https://t.me/AloneXBots",
                     "url",
                 ),
                 (
@@ -272,7 +272,7 @@ async def get_help_msg(m: Message or CallbackQuery, help_option: str):
         else:
             mes = m
         help_msg = f"""
-Hey **[{mes.from_user.first_name}](http://t.me/{mes.from_user.username})**!I am Gojo✨.
+Hey **[{mes.from_user.first_name}](http://t.me/{mes.from_user.username})**!I am Alone ✨.
 I'm here to help you manage your groups!
 Commands available:
 × /start: Start the bot
