@@ -131,7 +131,7 @@ async def send_mod_help(_, q: CallbackQuery):
     await q.edit_message_caption(
         caption="""Formatting
 
-Gojo supports a large number of formatting options to make your messages more expressive. Take a look by clicking the buttons below!""",
+Alone supports a large number of formatting options to make your messages more expressive. Take a look by clicking the buttons below!""",
         reply_markup=(await gen_formatting_kb(q.message)),
     )
     await q.answer()
@@ -152,4 +152,4 @@ __buttons__ = [
 __HELP__ = """
 **Formatting**
 
-Gojo supports a large number of formatting options to make your messages more expressive. Take a look by clicking the buttons below!"""
+Alone supports a large number of formatting options to make your messages more expressive. Take a look by clicking the buttons below!"""
