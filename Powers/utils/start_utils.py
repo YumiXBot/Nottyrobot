@@ -46,23 +46,23 @@ async def gen_start_kb(q: Message or CallbackQuery):
             ],
             [
                 (
-                    "Commands & Help", "commands"
+                    "Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅs", "commands"
                 ),
             ],
             [
                 (
-                    "Support",
+                    "Sᴜᴘᴘᴏʀᴛ",
                     f"https://t.me/{SUPPORT_GROUP}",
                     "url",
                 ),
                 (
-                  "Bot info",
+                  "Bᴏᴛ Iɴғᴏ",
                     "bot_curr_info"
                 )
             ],
             [
                 (
-                    "Owner",
+                    "Dᴇᴠᴇʟᴏᴘᴇʀ",
                     Config.OWNER_ID,
                     "user_id",
                 ),
