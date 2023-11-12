@@ -107,7 +107,7 @@ async def start(c: Gojo, m: Message):
                 
         try:
             cpt = f"""
-Hєу [{q.from_user.first_name}](http://t.me/{q.from_user.username})!🥀
+Hєу [{m.from_user.first_name}](http://t.me/{m.from_user.username})!🥀
 
 ๏ Tʜɪs Is 𝐀𝗅𝗈𝗇𝖾 ﾒ 𝐑𝗈𝖻𝗈𝗍 🥷!
 
