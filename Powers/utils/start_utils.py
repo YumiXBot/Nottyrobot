@@ -43,43 +43,28 @@ async def gen_start_kb(q: Message or CallbackQuery):
                     f"https://t.me/{Config.BOT_USERNAME}?startgroup=new",
                     "url",
                 ),
-                (
-                    "Support 👥",
-                    f"https://t.me/{SUPPORT_GROUP}",
-                    "url",
-                ),
             ],
             [
                 (
                     "📚 Commands & Help", "commands"
                 ),
+            ],
+            [
                 (
-                    "👾 Bot info",
+                    "Support 👥",
+                    f"https://t.me/{SUPPORT_GROUP}",
+                    "url",
+                ),
+                (
+                  "👾 Bot info",
                     "bot_curr_info"
                 )
             ],
             [
                 (
-                    "🗃️ Source Code",
-                    "https://github.com/TeamAloneOp/AloneXRobot",
-                    "url",
-                ),
-                (
                     "Owner ❤️",
                     Config.OWNER_ID,
                     "user_id",
-                ),
-            ],
-            [
-                (
-                    "Essential",
-                    "https://t.me/AloneXBots",
-                    "url",
-                ),
-                (
-                    "Powered by",
-                    f"https://{Config.SUPPORT_CHANNEL}.t.me",
-                    "url",
                 ),
             ],
         ],
@@ -100,8 +85,7 @@ async def get_private_note(c: Gojo, m: Message, help_option: str):
             for note in all_notes
         ]
         rply = f"Available notes in {chat_title}\n"
-        rply += "\n".join(note_list)
-        rply += "\n\nYou can retrieve these notes by tapping on the notename."
+        rply += "\n can retrieve these notes by tapping on the notename."
         await m.reply_text(rply, disable_web_page_preview=True, quote=True)
         return
 
