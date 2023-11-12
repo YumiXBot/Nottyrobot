@@ -70,12 +70,12 @@ PYTHON_VERSION = python_version()
 PYROGRAM_VERSION = pyrogram.__version__
 
 LOGGER.info("------------------------")
-LOGGER.info("|      Gojo_Satoru      |")
+LOGGER.info("|         Alone        |")
 LOGGER.info("------------------------")
 LOGGER.info(f"Version: {VERSION}")
 LOGGER.info(f"Owner: {str(Config.OWNER_ID)}")
 LOGGER.info(f"Time zone set to {Config.TIME_ZONE}")
-LOGGER.info("Source Code: https://github.com/Gojo-Bots/Gojo_Satoru\n")
+LOGGER.info("Source Code: https://github.com/TeamAloneOp/AloneXRobot\n")
 LOGGER.info("Checking lyrics genius api...")
 
 # API based clients
