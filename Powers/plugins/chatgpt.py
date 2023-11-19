@@ -1,7 +1,6 @@
 import os, time
 import openai
 from pyrogram import filters
-from Powers import Powers
 from pyrogram.enums import ChatAction, ParseMode
 from gtts import gTTS
 
