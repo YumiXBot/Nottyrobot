@@ -127,7 +127,7 @@ Hєу [{m.from_user.first_name}](http://t.me/{m.from_user.username})!🥀
         [
           [
             InlineKeyboardButton(
-              "Connect me to pm", 
+              "ᴄᴏɴɴᴇᴛ ᴍᴇ ᴛᴏ ᴘᴍ", 
               url=f"https://{Config.BOT_USERNAME}.t.me/",
             ),
           ],
@@ -171,13 +171,17 @@ async def commands_menu(_, q: CallbackQuery):
     keyboard = ikb(ou, True)
     try:
         cpt = f"""
-Hey **[{q.from_user.first_name}](http://t.me/{q.from_user.username})**! I am Alone ✨.
-I'm here to help you manage your group(s)!
-Commands available:
-× /start: Start the bot
-× /help: Give's you this message.
+Hєу **[{q.from_user.first_name}](http://t.me/{q.from_user.username})**! 
 
-You can use `$` and `!` in placec of `/` as your prefix handler
+๏ I Aᴍ 𝐀𝗅𝗈𝗇𝖾 ﾒ 𝐑𝗈𝖻𝗈𝗍 🥷 ✨.
+
+๏ I'ᴍ Hᴇʀᴇ Tᴏ Hᴇʟᴘ Yᴏᴜ Mᴀɴᴀɢᴇ Yᴏᴜʀ Gʀᴏᴜᴘs!
+
+➻ Cᴏᴍᴍᴀɴᴅs Aᴠᴀɪʟᴀʙʟᴇ:
+× /start: Sᴛᴀʀᴛ Tʜᴇ Bᴏᴛ
+× /help: Gɪᴠᴇ's Yᴏᴜ Tʜɪs Mᴀssᴀɢᴇ.
+
+๏ Yᴏᴜ Cᴀɴ Usᴇ `$` Aɴᴅ `!` Iɴ Pʟᴀᴄᴇᴄ Oғ `/` As Yᴏᴜʀ Pʀᴇғɪx Hᴀɴᴅʟᴇʀ
 """
 
         await q.edit_message_caption(
@@ -231,7 +235,7 @@ async def help_menu(_, m: Message):
                   [
                     [
                       InlineKeyboardButton(
-                        "Help",
+                        "ʜᴇʟᴘ",
                         url=f"t.me/{Config.BOT_USERNAME}?start={help_option}",
                         ),
                     ],
@@ -244,23 +248,27 @@ async def help_menu(_, m: Message):
             ou = await gen_cmds_kb(m)
             keyboard = ikb(ou, True)
             msg = f"""
-Hey **[{m.from_user.first_name}](http://t.me/{m.from_user.username})**!I am Alone ✨.
-I'm here to help you manage your group(s)!
-Commands available:
-× /start: Start the bot
-× /help: Give's you this message."""
+Hєу **[{m.from_user.first_name}](http://t.me/{m.from_user.username})**! 
+
+๏ I Aᴍ 𝐀𝗅𝗈𝗇𝖾 ﾒ 𝐑𝗈𝖻𝗈𝗍 🥷 ✨.
+
+๏ I'ᴍ Hᴇʀᴇ Tᴏ Hᴇʟᴘ Yᴏᴜ Mᴀɴᴀɢᴇ Yᴏᴜʀ Gʀᴏᴜᴘs!
+
+➻ Cᴏᴍᴍᴀɴᴅs Aᴠᴀɪʟᴀʙʟᴇ:
+× /start: Sᴛᴀʀᴛ Tʜᴇ Bᴏᴛ
+× /help: Gɪᴠᴇ's Yᴏᴜ Tʜɪs Mᴀssᴀɢᴇ."""
         else:
             keyboard = InlineKeyboardMarkup(
               [
                 [
                   InlineKeyboardButton(
-                    "Help", 
+                    "ʜᴇʟᴘ", 
                     url=f"t.me/{Config.BOT_USERNAME}?start=start_help",
                   ),
                 ],
               ],
             )
-            msg = "Contact me in PM to get the list of possible commands."
+            msg = "Cᴏɴᴛᴀᴄᴛ Mᴇ Iɴ Pᴍ Tᴏ Gᴇᴛ Tʜᴇ Lɪsᴛ Oғ Pᴏssɪʙʟᴇ Cᴏᴍᴍᴀɴᴅs."
 
         await m.reply_photo(
             photo=str(choice(StartPic)),
@@ -274,15 +282,15 @@ Commands available:
 async def give_curr_info(c: Gojo, q: CallbackQuery):
     start = time()
     up = strftime("%Hh %Mm %Ss", gmtime(time() - UPTIME))
-    x = await c.send_message(q.message.chat.id, "Pinging..")
+    x = await c.send_message(q.message.chat.id, "Pɪɴɢɪɴɢ..")
     delta_ping = time() - start
     await x.delete()
     txt = f"""
-🏓 Ping : {delta_ping * 1000:.3f} ms
-📈 Uptime : {up}
-🤖 Bot's version: {VERSION}
-🐍 Python's version: {PYTHON_VERSION}
-🔥 Pyrogram's version : {PYROGRAM_VERSION}
+🏓 Pɪɴɢ : {delta_ping * 1000:.3f} ms
+📈 Uᴘᴛɪᴍᴇ : {up}
+🤖 Bᴏᴛ's Vᴇʀsɪᴏɴ: {VERSION}
+🐍 Pʏᴛʜᴏɴ's Vᴇʀsɪᴏɴ: {PYTHON_VERSION}
+🔥 Pʏʀᴏɢʀᴀᴍ's Vᴇʀsɪᴏɴ : {PYROGRAM_VERSION}
     """
     await q.answer(txt, show_alert=True)
     return
