@@ -34,7 +34,7 @@ async def get_rules(_, m: Message):
             [
                 [
                     (
-                        "Rules",
+                        "ʀᴜʟᴇs",
                         f"https://t.me/{Config.BOT_USERNAME}?start=rules_{m.chat.id}",
                         "url",
                     ),
@@ -42,7 +42,7 @@ async def get_rules(_, m: Message):
             ],
         )
         await m.reply_text(
-            text="Click on the below button to see this group rules!",
+            text="ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴛᴏ ꜱᴇᴇ ᴛʜɪꜱ ɢʀᴏᴜᴘ ʀᴜʟᴇꜱ!",
             quote=True,
             reply_markup=pm_kb,
             reply_to_message_id=msg_id,
@@ -137,7 +137,7 @@ async def clear_rules(_, m: Message):
     await m.reply_text(
         text="Are you sure you want to clear rules?",
         reply_markup=ikb(
-            [[("⚠️ Confirm", "clear_rules"), ("❌ Cancel", "close_admin")]],
+            [[("⚠️ Cᴏɴғɪʀᴍ", "clear_rules"), ("❌ Cᴀɴᴄᴇʟ", "close_admin")]],
         ),
     )
     return
@@ -152,14 +152,12 @@ async def clearrules_callback(_, q: CallbackQuery):
     return
 
 
-__PLUGIN__ = "rules"
+__PLUGIN__ = "𝐑ᴜʟᴇs"
 
 __alt_name__ = ["rule"]
 
 __HELP__ = """
-**Rules**
-
-Set rules for you chat so that members know what to do and what not to do in your group!
+ꜱᴇᴛ ʀᴜʟᴇꜱ ꜰᴏʀ ʏᴏᴜ ᴄʜᴀᴛ ꜱᴏ ᴛʜᴀᴛ ᴍᴇᴍʙᴇʀꜱ ᴋɴᴏᴡ ᴡʜᴀᴛ ᴛᴏ ᴅᴏ ᴀɴᴅ ᴡʜᴀᴛ ɴᴏᴛ ᴛᴏ ᴅᴏ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ!
 
 • /rules: get the rules for current chat.
 
@@ -168,6 +166,6 @@ Set rules for you chat so that members know what to do and what not to do in you
 • /clearrules: Clear the rules for this chat.
 • /privrules `<on/yes/no/off>`: Turns on/off the option to send the rules to PM of user or group.
 
-**Note Format**
+**Nᴏᴛᴇ Fᴏʀᴍᴀᴛ**
     Check /markdownhelp for help related to formatting!
 """

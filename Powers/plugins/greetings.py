@@ -544,17 +544,13 @@ async def goodbye(c: Gojo, m: Message):
     return
 
 
-__PLUGIN__ = "greetings"
+__PLUGIN__ = "𝐆ʀᴇᴇᴛɪɴɢs"
 __alt_name__ = ["welcome", "goodbye", "cleanservice"]
 
 __HELP__ = """
-**Greetings**
-
-Customize your group's welcome / goodbye messages that can be personalised in multiple ways.
-
-**Note:**
-× Currently it supports only text!
-× Gojo must be an admin to greet and goodbye users.
+**Nᴏᴛᴇs:**
+× ᴄᴜʀʀᴇɴᴛʟʏ ɪᴛ ꜱᴜᴘᴘᴏʀᴛꜱ ᴏɴʟʏ ᴛᴇxᴛ!
+× ᴀʟᴏɴᴇ ᴍᴜꜱᴛ ʙᴇ ᴀɴ ᴀᴅᴍɪɴ ᴛᴏ ɢʀᴇᴇᴛ ᴀɴᴅ ɢᴏᴏᴅʙʏᴇ ᴜꜱᴇʀꜱ.
 
 **Admin Commands:**
 • /setwelcome <reply> : Sets a custom welcome message.

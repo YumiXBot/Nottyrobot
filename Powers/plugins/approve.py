@@ -192,7 +192,7 @@ async def unapproveall_users(_, m: Message):
     await m.reply_text(
         "Are you sure you want to remove everyone who is approved in this chat?",
         reply_markup=ikb(
-            [[("⚠️ Confirm", "unapprove_all"), ("❌ Cancel", "close_admin")]],
+            [[("⚠️ Cᴏɴғɪʀᴍ", "unapprove_all"), ("❌ Cᴀɴᴄᴇʟ", "close_admin")]],
         ),
     )
     return
@@ -223,7 +223,7 @@ async def unapproveall_callback(_, q: CallbackQuery):
     return
 
 
-__PLUGIN__ = "approve"
+__PLUGIN__ = "𝐀ᴘᴘᴏʀᴠᴇ"
 
 _DISABLE_CMDS_ = ["approval"]
 
@@ -231,9 +231,7 @@ __alt_name__ = ["approved"]
 
 
 __HELP__ = """
-**Apporve**
-
-**Admin commands:**
+**Aᴅᴍɪɴ Cᴏᴍᴍᴀɴᴅs:**
 • /approval: Check a user's approval status in this chat.
 • /approve: Approve of a user. Locks, blacklists, and antiflood won't apply to them anymore.
 • /unapprove: Unapprove of a user. They will now be subject to blocklists.

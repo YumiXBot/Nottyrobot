@@ -101,12 +101,12 @@ async def warn(c: Gojo, m: Message):
     rules = Rules(m.chat.id).get_rules()
     if rules:
         kb = InlineKeyboardButton(
-            "Rules 📋",
+            "Rᴜʟᴇs 📋",
             url=f"https://t.me/{Config.BOT_USERNAME}?start=rules_{m.chat.id}",
         )
     else:
         kb = InlineKeyboardButton(
-            "Kick ⚠️",
+            "Kɪᴄᴋ ⚠️",
             callback_data=f"warn.kick.{user_id}",
         )
 
@@ -126,7 +126,7 @@ async def warn(c: Gojo, m: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "Remove Warn ❌",
+                        "Rᴇᴍᴏᴠᴇ Wᴀʀɴ ❌",
                         callback_data=f"warn.remove.{user_id}",
                     ),
                 ]
@@ -369,15 +369,12 @@ async def warnlimit(_, m: Message):
     return
 
 
-__PLUGIN__ = "warnings"
+__PLUGIN__ = "𝐖ᴀʀɴɪɴɢs"
 
 __alt_name__ = ["warn", "warning", "warns"]
 
 __HELP__ = """
-**Warns**
-
-
-**Admin commands:**
+**Aᴅᴍɪɴ Cᴏᴍᴍᴀɴᴅs:**
 • /warn `<reason>`: Warn a user.
 • /dwarn `<reason>`: Warn a user by reply, and delete their message.
 • /swarn `<reason>`: Silently warn a user, and delete your message.

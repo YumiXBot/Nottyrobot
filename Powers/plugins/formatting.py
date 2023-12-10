@@ -138,7 +138,7 @@ Alone supports a large number of formatting options to make your messages more e
     return
 
 
-__PLUGIN__ = "formatting"
+__PLUGIN__ = "𝐅ᴏʀᴍᴀᴛᴛɪɴɢ"
 
 __alt_name__ = ["formatting", "markdownhelp", "markdown"]
 __buttons__ = [
@@ -150,6 +150,6 @@ __buttons__ = [
 ]
 
 __HELP__ = """
-**Formatting**
+**Fᴏʀᴍᴀᴛᴛɪɴɢ**
 
 Alone supports a large number of formatting options to make your messages more expressive. Take a look by clicking the buttons below!"""

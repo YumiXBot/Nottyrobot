@@ -42,7 +42,7 @@ Sticker type : `{st_type}`
 Emoji : {st_in.emoji}
 Pack name : {st_in.set_name}
 """
-    kb = IKM([[IKB("➕ Add sticker to pack", url=f"https://t.me/addstickers/{st_in.set_name}")]])
+    kb = IKM([[IKB("➕ Aᴅᴅ Sᴛɪᴄᴋᴇʀ Tᴏ Pᴀᴄᴋ ➕", url=f"https://t.me/addstickers/{st_in.set_name}")]])
     await m.reply_text(st_to_gib,reply_markup=kb)
     return
 
@@ -202,7 +202,7 @@ async def kang(c:Gojo, m: Message):
         kb = IKM(
             [
                 [
-                    IKB("➕ Add Pack ➕",url=f"t.me/addstickers/{packname}")
+                    IKB("➕ Aᴅᴅ Pᴀᴄᴋ ➕",url=f"t.me/addstickers/{packname}")
                 ]
             ]
         )
@@ -340,13 +340,14 @@ async def get_sticker_from_file(c: Gojo, m: Message):
         return
 
         
-__PLUGIN__ = "sticker"
+__PLUGIN__ = "𝐒ᴛɪᴄᴋᴇʀ"
 __alt_name__ = [
     "sticker",
     "kang"
 ]
 __HELP__ = """
-**User Commands:**
+**Usᴇʀ Cᴏᴍᴍᴀɴᴅs:**
+
 • /kang (/steal) <emoji>: Reply to a sticker or any supported media
 • /stickerinfo (/stinfo) : Reply to any sticker to get it's info
 • /getsticker (/getst) : Get sticker as photo, gif or vice versa.
@@ -359,7 +360,7 @@ __HELP__ = """
     ○ /mmfb <text>: To fill text with black colour
     ○ /mmfw or /mmf <text>: To fill it with white colour
 
-**Note**
-mmf and getsticker only support photo and normal stickers for now.
+**Nᴏᴛᴇ**
+ᴍᴍꜰ ᴀɴᴅ ɢᴇᴛꜱᴛɪᴄᴋᴇʀ ᴏɴʟʏ ꜱᴜᴘᴘᴏʀᴛ ᴘʜᴏᴛᴏ ᴀɴᴅ ɴᴏʀᴍᴀʟ ꜱᴛɪᴄᴋᴇʀꜱ ꜰᴏʀ ɴᴏᴡ.
 
 """

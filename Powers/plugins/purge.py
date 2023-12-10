@@ -117,12 +117,12 @@ async def del_msg(c: Gojo, m: Message):
     return
 
 
-__PLUGIN__ = "purges"
+__PLUGIN__ = "𝐏ᴜʀɢᴇs"
 
 __alt_name__ = ["purge", "del", "spurge"]
 
 __HELP__ = """
-**Purge**
+**Pᴜʀɢᴇ**
 
 • /purge: Deletes messages upto replied message.
 • /spurge: Deletes messages upto replied message without a success message.

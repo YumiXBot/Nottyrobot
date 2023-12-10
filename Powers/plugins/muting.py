@@ -98,7 +98,7 @@ async def tmute_usr(c: Gojo, m: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "Unmute",
+                        "ᴜɴᴍᴜᴛᴇ",
                         callback_data=f"unmute_={user_id}",
                     ),
                 ],
@@ -209,7 +209,7 @@ async def dtmute_usr(c: Gojo, m: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "Unmute",
+                        "ᴜɴᴍᴜᴛᴇ",
                         callback_data=f"unmute_={user_id}",
                     ),
                 ],
@@ -386,7 +386,7 @@ async def mute_usr(c: Gojo, m: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "Unmute",
+                        "ᴜɴᴍᴜᴛᴇ",
                         callback_data=f"unmute_={user_id}",
                     ),
                 ],
@@ -543,7 +543,7 @@ async def dmute_usr(c: Gojo, m: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "Unmute",
+                        "ᴜɴᴍᴜᴛᴇ",
                         callback_data=f"unmute_={user_id}",
                     ),
                 ],
@@ -649,7 +649,7 @@ async def unmutebutton(c: Gojo, q: CallbackQuery):
     return
 
 
-__PLUGIN__ = "muting"
+__PLUGIN__ = "𝐌ᴜᴛɪɴɢ"
 
 __alt_name__ = [
     "mute",
@@ -658,9 +658,8 @@ __alt_name__ = [
 ]
 
 __HELP__ = """
-**Muting**
+**Aᴅᴍɪɴ Oɴʟʏ:**
 
-**Admin only:**
 • /mute: Mute the user replied to or mentioned.
 • /smute: silences a user without notifying. Can also be used as a reply, muting the replied to user.
 • /dmute: Mute a user by reply, and delete their message.

@@ -328,10 +328,10 @@ async def download_instareels(c: Gojo, m: Message):
                 await m.reply_text("I am unable to reach to this reel.")
                 return
 
-__PLUGIN__ = "web support"
+__PLUGIN__ = "𝐖ᴇʙ-𝐒ᴜᴘᴘᴏʀᴛ"
 
 __HELP__ = """
-**Available commands**
+**Aᴠᴀɪʟᴀʙʟᴇ Cᴏᴍᴍᴀɴᴅs**
 • /rmbg (/removebg, /removebackground) : Reply to image file or sticker of which you want to remove background
 • /song (/yta) <songname or youtube link> : Download audio only from provided youtube url
 • /vsong (/ytv) <songname or youtube link> : Download video from provided youtube url

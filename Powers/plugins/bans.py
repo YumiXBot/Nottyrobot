@@ -101,7 +101,7 @@ async def tban_usr(c: Gojo, m: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "Unban",
+                        "ᴜɴʙᴀɴ",
                         callback_data=f"unban_={user_id}",
                     ),
                 ],
@@ -315,7 +315,7 @@ async def dtban_usr(c: Gojo, m: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "Unban",
+                        "ᴜɴʙᴀɴ",
                         callback_data=f"unban_={user_id}",
                     ),
                 ],
@@ -804,7 +804,7 @@ async def dban_usr(c: Gojo, m: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "Unban",
+                        "ᴜɴʙᴀɴ",
                         callback_data=f"unban_={user_id}",
                     ),
                 ],
@@ -908,7 +908,7 @@ async def ban_usr(c: Gojo, m: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "Unban",
+                        "ᴜɴʙᴀɴ",
                         callback_data=f"unban_={user_id}",
                     ),
                 ],
@@ -1031,7 +1031,7 @@ async def kickme(c: Gojo, m: Message):
     return
 
 
-__PLUGIN__ = "bans"
+__PLUGIN__ = "𝐁ᴀɴs"
 
 _DISABLE_CMDS_ = ["kickme"]
 
@@ -1044,9 +1044,7 @@ __alt_name__ = [
 ]
 
 __HELP__ = """
-**Bans**
-
-**Admin only:**
+**Aᴅᴍɪɴ Oɴʟʏ:**
 • /kick: Kick the user replied or tagged.
 • /skick: Kick the user replied or tagged and delete your messsage.
 • /dkick: Kick the user replied and delete their message.

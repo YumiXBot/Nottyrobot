@@ -352,10 +352,10 @@ async def paste_func(_, message: Message):
     if not link:
         await m.edit_text("Failed to post!")
         return
-    kb = [[InlineKeyboardButton(text="📍 Paste 📍", url=link + f".{exe}")]]
+    kb = [[InlineKeyboardButton(text="📍 𝐏ᴀsᴛᴇ 📍", url=link + f".{exe}")]]
     await m.delete()
     try:
-        await message.reply_text("Here's your paste", reply_markup=InlineKeyboardMarkup(kb))
+        await message.reply_text("Hᴇʀᴇ's Yᴏᴜʀ Pᴀsᴛᴇ", reply_markup=InlineKeyboardMarkup(kb))
     except Exception as e:
         if link:
             return await message.reply_text(f"Here's your paste:\n [link]({link + f'.{exe}'})",)
@@ -419,14 +419,12 @@ async def reporting_query(c: Gojo, m: Message):
     await c.send_message(OWNER_ID,f"New bug report\n{ppost}",disable_web_page_preview=True)
     return
 
-__PLUGIN__ = "utils"
+__PLUGIN__ = "𝐔ᴛɪʟs"
 _DISABLE_CMDS_ = ["paste", "wiki", "id", "gifid", "tr", "github", "git", "bug"]
 __alt_name__ = ["util", "misc", "tools"]
 
 __HELP__ = """
-**Utils**
-
-Some utils provided by bot to make your tasks easy!
+ꜱᴏᴍᴇ ᴜᴛɪʟꜱ ᴘʀᴏᴠɪᴅᴇᴅ ʙʏ ʙᴏᴛ ᴛᴏ ᴍᴀᴋᴇ ʏᴏᴜʀ ᴛᴀꜱᴋꜱ ᴇᴀꜱʏ!
 
 • /id: Get the current group id. If used by replying to a message, get that user's id.
 • /info: Get information about a user.

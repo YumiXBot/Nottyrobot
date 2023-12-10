@@ -203,7 +203,7 @@ async def weebify(_, m: Message):
     return
 
 
-__PLUGIN__ = "fun"
+__PLUGIN__ = "𝐅ᴜɴ"
 
 _DISABLE_CMDS_ = [
     "weebify",
@@ -222,7 +222,7 @@ _DISABLE_CMDS_ = [
 ]
 
 __HELP__ = """
-**Fun**
+**Fᴜɴ**
 
 • /runs: reply a random string from an array of replies.
 • /slap: slap a user, or get slapped if not a reply.

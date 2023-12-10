@@ -236,14 +236,12 @@ async def perma_pin(_, m: Message):
     return
 
 
-__PLUGIN__ = "pins"
+__PLUGIN__ = "𝐏ɪɴs"
 
 __alt_name__ = ["pin", "unpin"]
 
 __HELP__ = """
-**Pin**
-
-Here you find find all help related to groups pins and how to manage them via me.
+ʜᴇʀᴇ ʏᴏᴜ ꜰɪɴᴅ ꜰɪɴᴅ ᴀʟʟ ʜᴇʟᴘ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ ɢʀᴏᴜᴘꜱ ᴘɪɴꜱ ᴀɴᴅ ʜᴏᴡ ᴛᴏ ᴍᴀɴᴀɢᴇ ᴛʜᴇᴍ ᴠɪᴀ ᴍᴇ.
 
 **Admin Cmds:**
 • /pin: Silently pins the message replied to - add `loud`, `notify` or `alert` to give notificaton to users.

@@ -689,13 +689,11 @@ async def cleeeen(c:Gojo,m:Message):
         LOGGER.error(format_exc())
         return
 
-__PLUGIN__ = "devs"
+__PLUGIN__ = "𝐃ᴇᴠs"
 
 
 __HELP__ = """
-**DEV and SUDOERS commands**
-
-**Owner's commands:**
+**Oᴡɴᴇʀ's Cᴏᴍᴍᴀɴᴅs:**
 • /restart : Restart the bot
 • /update : To update the bot with the main stream repo
 

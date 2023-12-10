@@ -29,7 +29,7 @@ close_kb =InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                "Close ❌",
+                "Cʟᴏsᴇ ❌",
                 callback_data="f_close"
             )
         ]
@@ -40,21 +40,21 @@ action_kb = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                "Mute 🔇",
+                "Mᴜᴛᴇ 🔇",
                 callback_data="f_mute"
             ),
             InlineKeyboardButton(
-                "Ban 🚷",
+                "Bᴀɴ 🚷",
                 callback_data="f_ban"
             ),
             InlineKeyboardButton(
-                "Kick 🦿",
+                "Kɪᴄᴋ 🦿",
                 callback_data="f_kick"
             )
         ],
         [
             InlineKeyboardButton(
-                "➡️ Skip",
+                "➡️ Sᴋɪᴘ",
                 callback_data="f_skip"
             )
         ]
@@ -79,7 +79,7 @@ within_kb = InlineKeyboardMarkup(
         ],
         [
             InlineKeyboardButton(
-                "➡️ Skip",
+                "➡️ Sᴋɪᴘ",
                 callback_data="f_f_skip"
             )
         ]
@@ -104,7 +104,7 @@ limit_kb = InlineKeyboardMarkup(
         ],
         [
             InlineKeyboardButton(
-                "➡️ Skip",
+                "➡️ Sᴋɪᴘ",
                 callback_data="f_f_f_skip"
             )
         ]
@@ -524,7 +524,7 @@ async def flood_watcher(c: Gojo, m: Message):
         return
 
 
-__PLUGIN__ = "flood"
+__PLUGIN__ = "𝐅ʟᴏᴏᴅ"
 __alt_name__ = [
   "anit-flood",
   "flood",
@@ -532,8 +532,7 @@ __alt_name__ = [
   "anti-spam",
 ]
 __HELP__ = """
-**Anti Flood**
-**User Commands:**
+**Usᴇʀ Cᴏᴍᴍᴀɴᴅs:**
 • /flood: to check weather the group is protected from spam or not.
 
 **Admin only:**

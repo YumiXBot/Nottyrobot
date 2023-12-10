@@ -83,7 +83,7 @@ async def get_note_func(c: Gojo, m: Message, note_name, priv_notes_status):
                 [
                     [
                         (
-                            "Click Me!",
+                            "Cʟɪᴄᴋ Mᴇ!",
                             f"https://t.me/{Config.BOT_USERNAME}?start=note_{m.chat.id}_{note_hash}",
                             "url",
                         ),
@@ -340,7 +340,7 @@ async def local_notes(_, m: Message):
             [
                 [
                     (
-                        "All Notes",
+                        "Aʟʟ Nᴏᴛᴇs",
                         f"https://t.me/{Config.BOT_USERNAME}?start=notes_{m.chat.id}",
                         "url",
                     ),
@@ -392,7 +392,7 @@ async def clear_allnote(_, m: Message):
     await m.reply_text(
         "Are you sure you want to clear all notes?",
         reply_markup=ikb(
-            [[("⚠️ Confirm", "clear_notes"), ("❌ Cancel", "close_admin")]],
+            [[("⚠️ Cᴏɴғɪʀᴍ", "clear_notes"), ("❌ Cᴀɴᴄᴇʟ", "close_admin")]],
         ),
     )
     return
@@ -420,18 +420,16 @@ async def clearallnotes_callback(_, q: CallbackQuery):
     return
 
 
-__PLUGIN__ = "notes"
+__PLUGIN__ = "𝐍ᴏᴛᴇs"
 
 _DISABLE_CMDS_ = ["notes"]
 
 __alt_name__ = ["groupnotes", "snips", "notes"]
 
 __HELP__ = """
-**Notes**
-
-Save a note, get that, even you can delete that note.
-This note only avaiable for your whole group!
-Only admins can save and deletenotes, anyone can get them.
+ꜱᴀᴠᴇ ᴀ ɴᴏᴛᴇ, ɢᴇᴛ ᴛʜᴀᴛ, ᴇᴠᴇɴ ʏᴏᴜ ᴄᴀɴ ᴅᴇʟᴇᴛᴇ ᴛʜᴀᴛ ɴᴏᴛᴇ.
+ᴛʜɪꜱ ɴᴏᴛᴇ ᴏɴʟʏ ᴀᴠᴀɪᴀʙʟᴇ ꜰᴏʀ ʏᴏᴜʀ ᴡʜᴏʟᴇ ɢʀᴏᴜᴘ!
+ᴏɴʟʏ ᴀᴅᴍɪɴꜱ ᴄᴀɴ ꜱᴀᴠᴇ ᴀɴᴅ ᴅᴇʟᴇᴛᴇɴᴏᴛᴇꜱ, ᴀɴʏᴏɴᴇ ᴄᴀɴ ɢᴇᴛ ᴛʜᴇᴍ.
 
 • /save `<notename>` <`note content or reply to message>`
     Save a note, you can get or delete that later.

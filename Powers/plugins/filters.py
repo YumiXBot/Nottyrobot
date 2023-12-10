@@ -293,15 +293,13 @@ async def filters_watcher(c: Gojo, m: Message):
     return
 
 
-__PLUGIN__ = "filters"
+__PLUGIN__ = "𝐅ɪʟᴛᴇʀs"
 
 _DISABLE_CMDS_ = ["filters"]
 
 __alt_name__ = ["filters", "autoreply"]
 
 __HELP__ = """
-**Filters**
-
 • /filters: List all active filters saved in the chat.
 
 **Admin only:**
