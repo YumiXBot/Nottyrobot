@@ -60,8 +60,8 @@ async def gen_start_kb(q: Message or CallbackQuery):
                     "user_id",
                 ),
                 (
-                    "sᴜᴩᴩᴏʀᴛ ♻️",
-                    f"https://t.me/{SUPPORT_GROUP}",
+                    "ᴜᴘᴅᴀᴛᴇs ♻️",
+                    f"https://t.me/{SUPPORT_CHANNEL}",
                     "url",
                 ),
             ],
