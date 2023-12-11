@@ -254,11 +254,15 @@ async def get_help_msg(m: Message or CallbackQuery, help_option: str):
         else:
             mes = m
         help_msg = f"""
-Hey **[{mes.from_user.first_name}](http://t.me/{mes.from_user.username})**!I am Alone ✨.
-I'm here to help you manage your groups!
-Commands available:
-× /start: Start the bot
-× /help: Give's you this message."""
+Hєу **[{mes.from_user.first_name}](http://t.me/{mes.from_user.username})**! 
+
+๏ I Aᴍ 𝐀𝗅𝗈𝗇𝖾 ﾒ 𝐑𝗈𝖻𝗈𝗍 🥷 ✨.
+
+๏ I'ᴍ Hᴇʀᴇ Tᴏ Hᴇʟᴘ Yᴏᴜ Mᴀɴᴀɢᴇ Yᴏᴜʀ Gʀᴏᴜᴘs!
+
+➻ Cᴏᴍᴍᴀɴᴅs Aᴠᴀɪʟᴀʙʟᴇ:
+× /start: Sᴛᴀʀᴛ Tʜᴇ Bᴏᴛ
+× /help: Gɪᴠᴇ's Yᴏᴜ Tʜɪs Mᴀssᴀɢᴇ."""
         ou = await gen_cmds_kb(m)
         help_kb = ikb(ou, True)
 
