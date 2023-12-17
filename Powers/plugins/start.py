@@ -107,13 +107,14 @@ async def start(c: Gojo, m: Message):
                 
         try:
             cpt = f"""
-Hєу [{m.from_user.first_name}](http://t.me/{m.from_user.username})!🥀
+ʜɪɪ [{m.from_user.first_name}](http://t.me/{m.from_user.username})!
+───────────────────────
+ɪ ᴀᴍ ᴀɴ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴡɪᴛʜ ꜱᴏᴍᴇ ꜰᴜɴ ᴇxᴛʀᴀꜱ ;)
 
-๏ Tʜɪs Is 𝐀𝗅𝗈𝗇𝖾 ﾒ 𝐑𝗈𝖻𝗈𝗍 🥷!
-
-➻ Tʜᴇ Mᴏsᴛ Pᴏᴡᴇʀғᴜʟ Tᴇʟᴇɢʀᴀᴍ Gʀᴏᴜᴘ Mᴀɴᴀɢᴇᴍᴇɴᴛ Bᴏᴛ Fᴏʀ Mᴀɴᴀɢɪɴɢ Yᴏᴜʀ Gʀᴏᴜᴘs Wɪᴛʜ Sᴏᴍᴇ Aᴡᴇsᴏᴍᴇ Aɴᴅ Usᴇғᴜʟ Fᴇᴀᴛᴜʀᴇs.
-
-๏ Cʟɪᴄᴋ Oɴ Tʜᴇ Hᴇʟᴩ Bᴜᴛᴛᴏɴ Tᴏ Gᴇᴛ Iɴғᴏʀᴍᴀᴛɪᴏɴ Aʙᴏᴜᴛ Mʏ Mᴏᴅᴜʟᴇs Aɴᴅ Cᴏᴍᴍᴀɴᴅs."""
+ᴅᴏ ɴᴏᴛᴇ ɪ ɴᴇᴇᴅ ᴛᴏ ʙᴇ ᴘʀᴏᴍᴏᴛᴇᴅ ᴡɪᴛʜ ᴘʀᴏᴘᴇʀ ᴀᴅᴍɪɴ ᴘᴇʀᴍɪꜱꜱɪᴏɴꜱ ᴛᴏ ꜰᴜɴᴄᴛɪᴏɴ ᴘʀᴏᴘᴇʀʟʏ. 
+ᴇʟꜱᴇ ɪ ᴡᴏɴ'ᴛ ʙᴇ ᴀʙʟᴇ ᴛᴏ ꜰᴜɴᴄᴛɪᴏɴ ᴀꜱ ꜱᴀɪᴅ.
+───────────────────────
+ᴄʟɪᴄᴋ ᴏɴ /help ᴛᴏ ʟᴇᴀʀɴ ᴍᴏʀᴇ!"""
             await m.reply_photo(
                 photo=str(choice(StartPic)),
                 caption=cpt,
