@@ -361,7 +361,7 @@ async def dtban_usr(c: Gojo, m: Message):
     return
 
 
-@Gojo.on_message(command("kick") & restrict_filter)
+@Gojo.on_message(command(["kick","nikal"], prefixes=["a", "A"]) & restrict_filter)
 async def kick_usr(c: Gojo, m: Message):
     if len(m.text.split()) == 1 and not m.reply_to_message:
         await m.reply_text(text="I can't kick nothing!")
