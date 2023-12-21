@@ -284,10 +284,8 @@ async def promote_usr(c: Gojo, m: Message):
         await m.chat.promote_member(
             user_id=user_id,
             privileges=ChatPrivileges(
-                can_change_info=bot.privileges.can_change_info,
                 can_invite_users=bot.privileges.can_invite_users,
                 can_delete_messages=bot.privileges.can_delete_messages,
-                can_restrict_members=bot.privileges.can_restrict_members,
                 can_pin_messages=bot.privileges.can_pin_messages,
                 can_manage_chat=bot.privileges.can_manage_chat,
                 can_manage_video_chats=bot.privileges.can_manage_video_chats,
