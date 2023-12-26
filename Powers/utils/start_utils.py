@@ -39,30 +39,25 @@ async def gen_start_kb(q: Message or CallbackQuery):
         [
             [
                 (
-                    "⚓ sᴜᴍᴍᴏɴ ᴍᴇ ⚓",
+                    "⚓ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛs ⚓",
                     f"https://t.me/{Config.BOT_USERNAME}?startgroup=new",
                     "url",
                 ),
             ],
             [
                 (
-                    "🍁 ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅs 🍁", "commands"
+                    "❀ ʙᴏᴛ ɪɴғᴏ",
+                    "bot_curr_info",
+                ),
+                (
+                    "ᴜᴘᴅᴀᴛᴇs ♲︎︎︎",
+                    "https://t.me/AloneXBots",
+                    "url",
                 ),
             ],
             [
                 (
-                    "🫧 ʙᴏᴛ ɪɴғᴏ",
-                    "bot_curr_info",
-                ),
-                (
-                  "🌿 ᴅᴇᴠ 🌿",
-                    Config.OWNER_ID,
-                    "user_id",
-                ),
-                (
-                    "ᴜᴘᴅᴀᴛᴇs ♻️",
-                    "https://t.me/AloneXBots",
-                    "url",
+                    "᯽ ᴄᴏᴍᴍᴀɴᴅs ᯽", "commands"
                 ),
             ],
         ],
@@ -87,7 +82,7 @@ async def get_private_note(c: Gojo, m: Message, help_option: str):
         await m.reply_text(rply, disable_web_page_preview=True, quote=True)
         return
 
-    if len(help_lst) != 3:
+    if len(hlp_lst) != 3:
         return
 
     note_hash = help_option.split("_")[2]
