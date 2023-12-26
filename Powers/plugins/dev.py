@@ -688,35 +688,3 @@ async def cleeeen(c:Gojo,m:Message):
         LOGGER.error(e)
         LOGGER.error(format_exc())
         return
-
-__PLUGIN__ = "𝐃ᴇᴠs"
-
-
-__HELP__ = """
-**Oᴡɴᴇʀ's Cᴏᴍᴍᴀɴᴅs:**
-• /restart : Restart the bot
-• /update : To update the bot with the main stream repo
-
-**Dev's commands:**
-• /addsupport [dev | sudo | whitelist] : Reply to message or give me user id or username
-• /logs : Return the logs of bot.
-• /neofetch : Fetch neo.
-• /eval : Evaluate the given python code.
-• /exec : Execute the given code.
-• /chatlist : Return the list of chats present in database
-• /uptime : Return the uptime of the bot.
-• /leavechat : Bot will leave the provided chat.
-• /chatbroadcast : Broadcast the messge to chats.
-• /forward (/fwd) [tag] : Forward message to peers according to tag. Default to all
-    Available tags:
-     `-u` : For users
-     `-c` : For chats
-     `-all` : For all
-
-**Sudoer's command:**
-• /ping : return the ping of the bot.
-• /cleandb : Delete useless junks from database (Automatically start cleaning it at 3:00:00 AM)
-
-**Example:**
-/ping
-"""
