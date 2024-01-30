@@ -137,19 +137,3 @@ Alone supports a large number of formatting options to make your messages more e
     await q.answer()
     return
 
-
-__PLUGIN__ = "𝐅ᴏʀᴍᴀᴛᴛɪɴɢ"
-
-__alt_name__ = ["formatting", "markdownhelp", "markdown"]
-__buttons__ = [
-    [
-        ("Markdown Formatting", "formatting.md_formatting"),
-        ("Fillings", "formatting.fillings"),
-    ],
-    [("Random Content", "formatting.random_content")],
-]
-
-__HELP__ = """
-**Fᴏʀᴍᴀᴛᴛɪɴɢ**
-
-Alone supports a large number of formatting options to make your messages more expressive. Take a look by clicking the buttons below!"""
