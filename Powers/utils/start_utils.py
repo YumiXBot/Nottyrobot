@@ -39,25 +39,25 @@ async def gen_start_kb(q: Message or CallbackQuery):
         [
             [
                 (
-                    "⚓ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛs ⚓",
+                    "Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛs",
                     f"https://t.me/{Config.BOT_USERNAME}?startgroup=new",
                     "url",
                 ),
             ],
             [
                 (
-                    "❀ ʙᴏᴛ ɪɴғᴏ",
-                    "bot_curr_info",
-                ),
-                (
-                    "ᴜᴘᴅᴀᴛᴇs ♲︎︎︎",
-                    "https://t.me/AloneXBots",
-                    "url",
+                    "Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅs", "commands"
                 ),
             ],
             [
                 (
-                    "᯽ ᴄᴏᴍᴍᴀɴᴅs ᯽", "commands"
+                    "Bᴏᴛ ɪɴғᴏ",
+                    "bot_curr_info",
+                ),
+                (
+                    "Uᴘᴅᴀᴛᴇs ♲︎︎︎",
+                    "https://t.me/AloneXBots",
+                    "url",
                 ),
             ],
         ],
