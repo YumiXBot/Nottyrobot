@@ -251,8 +251,6 @@ async def get_help_msg(m: Message or CallbackQuery, help_option: str):
         help_msg = f"""
 Hєу **[{mes.from_user.first_name}](http://t.me/{mes.from_user.username})**! 
 
-๏ I Aᴍ 𝐀𝗅𝗈𝗇𝖾 ﾒ 𝐑𝗈𝖻𝗈𝗍 🥷 ✨.
-
 ๏ I'ᴍ Hᴇʀᴇ Tᴏ Hᴇʟᴘ Yᴏᴜ Mᴀɴᴀɢᴇ Yᴏᴜʀ Gʀᴏᴜᴘs!
 
 ➻ Cᴏᴍᴍᴀɴᴅs Aᴠᴀɪʟᴀʙʟᴇ:
