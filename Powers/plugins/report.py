@@ -201,16 +201,3 @@ async def report_buttons(c: Gojo, q: CallbackQuery):
             )
     return
 
-
-__PLUGIN__ = "𝐑ᴇᴘᴏʀᴛɪɴɢ"
-
-__alt_name__ = ["reports", "report"]
-
-__HELP__ = """
-**Aᴅᴍɪɴs Oɴʟʏ:**
-• /reports `<on/off/yes/no>`: change report setting, or view current status.
-    ‣ If done in PM, toggles your status.
-    ‣ If in group, toggles that groups's status.
-
-• /report `<reason>`: reply to a message to report it to admins.
-× @admin: reply to a message to report it to admins."""
