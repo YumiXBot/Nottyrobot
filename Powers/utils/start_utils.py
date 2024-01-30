@@ -55,7 +55,7 @@ async def gen_start_kb(q: Message or CallbackQuery):
                     "bot_curr_info",
                 ),
                 (
-                    "Uᴘᴅᴀᴛᴇs ♲︎︎︎",
+                    "Uᴘᴅᴀᴛᴇs",
                     "https://t.me/AloneXBots",
                     "url",
                 ),
