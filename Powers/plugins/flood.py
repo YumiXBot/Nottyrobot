@@ -524,7 +524,7 @@ async def flood_watcher(c: Gojo, m: Message):
         return
 
 
-__PLUGIN__ = "𝐅ʟᴏᴏᴅ"
+__PLUGIN__ = "Fʟᴏᴏᴅ"
 __alt_name__ = [
   "anit-flood",
   "flood",
