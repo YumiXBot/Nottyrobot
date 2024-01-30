@@ -206,7 +206,7 @@ async def rm_allbl_callback(_, q: CallbackQuery):
     return
 
 
-__PLUGIN__ = "𝐁ʟᴀᴄᴋʟɪsᴛ"
+__PLUGIN__ = "Bʟᴀᴄᴋʟɪsᴛ"
 
 __alt_name__ = ["blacklists", "blaction"]
 
