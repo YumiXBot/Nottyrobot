@@ -151,11 +151,7 @@ class Greetings(MongoDB):
                 "cleangoodbye": False,
                 "cleanservice": False,
                 "goodbye_text": "Sad to see you leaving {first}.\nTake Care!",
-                "welcome_text": """
-𝗛𝗲𝘆❗️{mention}, 𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝗧𝗼 {chatname} 𝗚𝗿𝗼𝘂𝗽.
-➖➖➖➖➖➖➖➖➖➖➖➖
-𝗡𝗔𝗠𝗘 : {first}
-𝗜𝗗 : {id}""",
+                "welcome_text": "𝗛𝗲𝘆❗️{first}, 𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝗧𝗼 {chatname} 𝗚𝗿𝗼𝘂𝗽.",
                 "welcome": True,
                 "goodbye": True,
                 "welcome_media":False,
