@@ -1031,7 +1031,7 @@ async def kickme(c: Gojo, m: Message):
     return
 
 
-__PLUGIN__ = "𝐁ᴀɴs"
+__PLUGIN__ = "Bᴀɴs"
 
 _DISABLE_CMDS_ = ["kickme"]
 
