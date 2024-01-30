@@ -544,7 +544,7 @@ async def goodbye(c: Gojo, m: Message):
     return
 
 
-__PLUGIN__ = "𝐆ʀᴇᴇᴛɪɴɢs"
+__PLUGIN__ = "Wᴇʟᴄᴏᴍᴇ"
 __alt_name__ = ["welcome", "goodbye", "cleanservice"]
 
 __HELP__ = """
