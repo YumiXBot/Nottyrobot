@@ -340,7 +340,7 @@ async def get_sticker_from_file(c: Gojo, m: Message):
         return
 
         
-__PLUGIN__ = "𝐒ᴛɪᴄᴋᴇʀ"
+__PLUGIN__ = "Sᴛɪᴄᴋᴇʀ"
 __alt_name__ = [
     "sticker",
     "kang"
