@@ -223,7 +223,7 @@ async def unapproveall_callback(_, q: CallbackQuery):
     return
 
 
-__PLUGIN__ = "𝐀ᴘᴘᴏʀᴠᴇ"
+__PLUGIN__ = "Aᴘᴘᴏʀᴠᴇ"
 
 _DISABLE_CMDS_ = ["approval"]
 
