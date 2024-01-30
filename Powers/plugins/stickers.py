@@ -242,7 +242,7 @@ async def kang(c:Gojo, m: Message):
     return
 
 
-@Gojo.on_message(command(["mmfb","mmfw","mmf"]))
+@Gojo.on_message(command(["ammfb","ammfw","ammf"]))
 async def memify_it(c: Gojo, m: Message):
     if not m.reply_to_message:
         await m.reply_text("Invalid type.")
@@ -351,16 +351,6 @@ __HELP__ = """
 • /kang (/steal) <emoji>: Reply to a sticker or any supported media
 • /stickerinfo (/stinfo) : Reply to any sticker to get it's info
 • /getsticker (/getst) : Get sticker as photo, gif or vice versa.
-• /stickerid (/stid) : Reply to any sticker to get it's id
-• /mmf <your text>: Reply to a normal sticker or a photo or video file to memify it. If you want to right text at bottom use `;right your message`
-    ■ For e.g. 
-    ○ /mmf Hello freinds : this will add text to the top
-    ○ /mmf Hello ; freinds : this will add Hello to the top and freinds at the bottom
-    ○ /mmf ; Hello friends : this will add text at the bottom
-    ○ /mmfb <text>: To fill text with black colour
-    ○ /mmfw or /mmf <text>: To fill it with white colour
-
-**Nᴏᴛᴇ**
-ᴍᴍꜰ ᴀɴᴅ ɢᴇᴛꜱᴛɪᴄᴋᴇʀ ᴏɴʟʏ ꜱᴜᴘᴘᴏʀᴛ ᴘʜᴏᴛᴏ ᴀɴᴅ ɴᴏʀᴍᴀʟ ꜱᴛɪᴄᴋᴇʀꜱ ꜰᴏʀ ɴᴏᴡ.
+• /stickerid (/stid) : Reply to any sticker to get it's id.
 
 """
