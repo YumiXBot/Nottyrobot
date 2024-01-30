@@ -223,12 +223,11 @@ async def resetwlcm(_, m: Message):
     db = Greetings(m.chat.id)
     if m and not m.from_user:
         return
-    text = """
+    text = f"""
 𝗛𝗲𝘆❗️{mention}, 𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝗧𝗼 {chatname} 𝗚𝗿𝗼𝘂𝗽.
 ➖➖➖➖➖➖➖➖➖➖➖➖
 𝗡𝗔𝗠𝗘 : {first}
-𝗜𝗗 : {id}
-"""
+𝗜𝗗 : {id}"""
     db.set_welcome_text(text,None)
     await m.reply_text("Done!")
     return
