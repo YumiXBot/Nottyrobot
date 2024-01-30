@@ -267,22 +267,3 @@ async def get_image_search(_, m: Message):
     except Exception:
         await ab.edit("Error occurred while sending images. Please try again.")
 
-__PLUGIN__ = "𝐒ᴇᴀʀᴄʜ"
-
-
-__alt_name__ = [
-    "google",
-    "anime",
-    "stack",
-]
-
-__HELP__ = """
-**Aᴠᴀɪʟᴀʙʟᴇ Cᴏᴍᴍᴀɴᴅs:**
-• /google `<query>` : Search the google for the given query.
-• /anime `<query>`  : Search myanimelist for the given query.
-• /stack `<query>`  : Search stackoverflow for the given query.
-• /images (/imgs) `<query>` : Get the images regarding to your query
-
-**Exᴀᴍᴘʟᴇ:**
-`/google pyrogram`: return top 5 reuslts.
-"""
