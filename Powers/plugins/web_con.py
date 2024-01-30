@@ -327,15 +327,3 @@ async def download_instareels(c: Gojo, m: Message):
             except Exception:
                 await m.reply_text("I am unable to reach to this reel.")
                 return
-
-__PLUGIN__ = "𝐖ᴇʙ-𝐒ᴜᴘᴘᴏʀᴛ"
-
-__HELP__ = """
-**Aᴠᴀɪʟᴀʙʟᴇ Cᴏᴍᴍᴀɴᴅs**
-• /rmbg (/removebg, /removebackground) : Reply to image file or sticker of which you want to remove background
-• /song (/yta) <songname or youtube link> : Download audio only from provided youtube url
-• /vsong (/ytv) <songname or youtube link> : Download video from provided youtube url
-• /ig (/instagram , /insta) <reel's url> : Download reel from it's url
-
-**Bot will not download any song or video having duration greater than 10 minutes (to reduce the load on bot's server)**
-"""
